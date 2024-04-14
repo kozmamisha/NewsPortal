@@ -1,0 +1,41 @@
+body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.MuiButton-root {
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+}
+
+.MuiButton-containedSecondary {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.MuiButton-containedSecondary:hover {
+    background-color: #bd2130;
+}
