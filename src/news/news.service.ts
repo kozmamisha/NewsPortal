@@ -36,6 +36,9 @@ export class NewsService {
       where: {
         user: { id },
       },
+      relations: {
+        category: true
+      },
       order: {
         createdAt: 'DESC',
       },

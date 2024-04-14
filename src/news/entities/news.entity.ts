@@ -25,7 +25,9 @@ export class News {
   @JoinColumn({ name: 'user_id' })
   user: User;
 
-  @ManyToOne(() => Category, (category) => category.news)
+  @ManyToOne(() => Category, (category) => category.news, {
+    onDelete: 'SET NULL',
+  })
   @JoinColumn({ name: 'category_id' })
   category: Category;
 
